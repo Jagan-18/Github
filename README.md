@@ -14,8 +14,9 @@
 6. git push -u origin main
     - while pull code in main branch get any error (error: failed to push some refs to <Git-url>)
 
-7. creating othere git branch and pull code to there.
-   ==> git checkout -b <New-BranchName>
+7. To creating other git branch and pull code to that new branch.
+
+==> git checkout -b <New-BranchName>
    
 8. git add .
  
