@@ -1,7 +1,7 @@
 # Github
 
-## GitHub Commands list to pull code to Github Repo.
-***************************************************
+## Commands list to push & Pull code to New repository.
+*******************************************************
 
 #create a new repository on the command line:
 =============================================
