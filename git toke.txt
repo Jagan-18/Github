@@ -15,6 +15,22 @@
 
 6. git push origin master 
 
+
+Note: Above push repo issue we need to following this step's
+
+1. Check if the remote is configured: 
+ 
+- git remote -v
+
+You should now see output like this:
+-----------------------------------
+-  origin  https://github.com/your-username/your-repository.git (fetch)
+- origin  https://github.com/your-username/your-repository.git (push)
+
+2. If missing, add the remote: git remote add origin <repository-url>
+3. Push to the remote: git push origin master
+
+
 ========
 
  git add . ; git commit -m "roboshop shell script"; git push origin master
