@@ -16,7 +16,14 @@
 6. git push origin master 
 
 
-Note: Above push repo issue we need to following this step's
+***********************
+git add . ; git commit -m "update text" ; git branch -m main master ; git push origin master
+
+******
+
+
+-------------------------------------------------------------------------------
+### Note: Above push repo issue we need to following this step's
 
 1. Check if the remote is configured: 
  
