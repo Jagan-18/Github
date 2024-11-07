@@ -17,7 +17,10 @@
 
 
 ***********************
-git add . ; git commit -m "update text" ; git branch -m main master ; git push origin master
+Step1: 
+     - git add . ; git commit -m "update text" ; git branch -m main master ; git push origin master
+
+Step2:  git add .; git commit -m "some textupdate" ; git push origin master
 
 ******
 
