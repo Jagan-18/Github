@@ -46,3 +46,14 @@
 8. git add .
 9. git commit -m "commit message"
 10. git push -u origin <New BranchName>
+
+-------------------------------------------------------------------------------------------------------------
+# Error while push code in repo: flowinf steps:
+ #### ! [rejected]        main -> main (non-fast-forward) error: failed to push some refs to 'https://github.com/Jagan-18/Ansible_Roboshop.git'
+```bash
+git rebase --continue
+git add .
+git rebase --continue
+git fetch origin  # After finishing the rebase, make sure that your local branch is up-to-date with the remote branch.
+git push origin main
+```
