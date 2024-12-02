@@ -49,7 +49,7 @@
 
 -------------------------------------------------------------------------------------------------------------
 # Error while push code in repo: flowinf steps:
- #### ! [rejected]        main -> main (non-fast-forward) error: failed to push some refs to 'https://github.com/Jagan-18/Ansible_Roboshop.git'
+ #### ! [rejected]        main -> main (non-fast-forward) error: failed to push some refs to "<Github_URL>"
 ```bash
 git rebase --continue
 git add .
