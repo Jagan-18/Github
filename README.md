@@ -51,7 +51,10 @@
 # Error while push code in repo: flowinf steps:
  #### ! [rejected]        main -> main (non-fast-forward) error: failed to push some refs to "<Github_URL>"
 ```bash
-git rebase --continue
+ git fetch origin
+```
+```bash
+git rebase origin/main
 git add .
 git rebase --continue
 git fetch origin  # After finishing the rebase, make sure that your local branch is up-to-date with the remote branch.
