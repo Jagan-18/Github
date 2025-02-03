@@ -48,8 +48,9 @@
 10. git push -u origin <New BranchName>
 
 -------------------------------------------------------------------------------------------------------------
-# Error while push code in repo: flowinf steps:
+# Error while push code in repo: flowinf steps: "error: failed to push some refs to https://github.****.git"
  #### ! [rejected]        main -> main (non-fast-forward) error: failed to push some refs to "<Github_URL>"
+ ### Flow step1
 ```bash
  git fetch origin
 ```
@@ -61,6 +62,57 @@ git fetch origin  # After finishing the rebase, make sure that your local branch
 git push origin main
 ```
 
+### Flow step2
+The error message you're seeing indicates that the remote repository has changes that you don't have in your local repository.
+This typically happens when someone else has pushed changes to the same branch (`main` in this case) after you last pulled from the remote.
+
+To resolve this issue, you need to integrate the remote changes into your local repository before pushing your changes. Here's how you can do it:
+
+### Step-by-Step Solution:
+
+1. **Pull the latest changes from the remote repository:**
+
+   Run the following command to fetch and merge the changes from the remote `main` branch into your local `main` branch:
+
+   ```bash
+   git pull origin main
+   ```
+
+   This will update your local branch with the latest changes from the remote repository.
+
+2. **Resolve any merge conflicts (if necessary):**
+
+   If there are any conflicts between your local changes and the remote changes, Git will prompt you to resolve them. Open the conflicting files, make the necessary changes, and then mark them as resolved by adding them:
+
+   ```bash
+   git add <file>
+   ```
+
+3. **Commit the merge (if there were conflicts):**
+
+   If you had to resolve conflicts, commit the merge:
+
+   ```bash
+   git commit -m "Merge remote-tracking branch 'origin/main' into main"
+   ```
+
+4. **Push your changes to the remote repository:**
+
+   Once you've integrated the remote changes, you can push your local changes to the remote repository:
+
+   ```bash
+   git push -u origin main
+   ```
+
+### Summary:
+
+- **`git pull origin main`**: Fetches and merges the remote changes into your local branch.
+- **Resolve conflicts**: If there are conflicts, resolve them and commit the merge.
+- **`git push -u origin main`**: Push your changes to the remote repository.
+
+
+
+---
 Certainly! Here's a well-structured and formatted way to add the Git-related interview questions and answers to your **README file**:
 
 ---
