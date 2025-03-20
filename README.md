@@ -249,5 +249,15 @@ Certainly! Here's a well-structured and formatted way to add the Git-related int
 - This strategy ensures organized development, clear code history, and efficient collaboration.
 
 ---
+# what is differnt B/w Reset Vs Revert
+### Reset:
+- 1. It Removes commit from the history
+- 2. Reset works for local commits get back
+- 3. git file for stageing area to working dir
+  
+### Revert:
+- 1. It will not removes
+- 2. Revert works for local and commites
+- 3. It will delete the local repo and clean the files. 
 
 
