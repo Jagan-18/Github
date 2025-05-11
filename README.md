@@ -115,8 +115,8 @@ To resolve this issue, you need to integrate the remote changes into your local 
 ---
 ## 📌 Note: The file extension (.jpg, .png) in the URL should match the actual image format for proper display.
 
-- ![image alt](image_URL) → ✔️ .jpg file
-- ![counter](Image_URL) → ✔️ .png file
+- ![ image alt](image_URL) → ✔️ .jpg file
+- ![ counter](Image_URL) → ✔️ .png file
 ---
 
 ---
