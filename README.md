@@ -113,6 +113,13 @@ To resolve this issue, you need to integrate the remote changes into your local 
 
 
 ---
+## 📌 Note: The file extension (.jpg, .png) in the URL should match the actual image format for proper display.
+
+- ![image alt](https://example.com/photo.jpg) → ✔️ .jpg file
+- ![counter](https://example.com/graph.png) → ✔️ .png file
+---
+
+---
 Certainly! Here's a well-structured and formatted way to add the Git-related interview questions and answers to your **README file**:
 
 ---
