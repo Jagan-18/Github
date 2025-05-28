@@ -240,11 +240,11 @@ Certainly! Here's a well-structured and formatted way to add the Git-related int
 **Answer:** Effective version control is crucial for team collaboration, code integrity, and maintaining a smooth development workflow
 
 ##### 1. Branching Strategy:
-- **Gitflow:** I often use the Gitflow workflow, which includes feature branches, develop, release, and master(main) branches.
-  - **1. Feature Branches:** Developers create branches for new features or tasks from the develop branch.
+- I follow the **Gitflow workflow**, which includes structured branching feature branches, develop, release, and master(main) branches.
+  - **1. Feature Branches:** Created from develop for new features or tasks.
   - **2. Pull Requests:** Once a feature is complete, a pull request is raised for code review, before merging back into develop.
   - **3. Release Branches:** When preparing for a release, a release branch is created from develop, allowing final adjustments bug fixes, and testing before merging into master (or main)
-  - **4. Hotfixes:** For critical fixes in production, hotfix branches are created from the master and merged back into both master and develop after completion.
+  - **4. Hotfixes:** For critical production fixes,hotfix branches are created from the master and merged back into both master and develop after completion.
 
 ##### 2. Versioning: Follow semantic versioning (MAJOR, MINOR, PATCH) to label releases.
  - **MAJOR:** Incremented for breaking changes.
