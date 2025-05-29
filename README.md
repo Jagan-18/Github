@@ -265,6 +265,31 @@ Certainly! Here's a well-structured and formatted way to add the Git-related int
 ### Revert:
 - 1. It will not removes
 - 2. Revert works for local and commites
-- 3. It will delete the local repo and clean the files. 
+- 3. It will delete the local repo and clean the files.
+
+---
+### How do you push code from local to a GitHub repository?
+**To push code from local to GitHub, I follow these steps:**
+1. **Initialize Git (if not done):**
+   `git init`
+2. **Add remote origin:**
+   `git remote add origin https://github.com/username/repo-name.git`
+3. **Add files to staging:**
+   `git add .`
+4. **Commit the changes:**
+   `git commit -m "Initial commit"`
+5. **Push to GitHub:**
+   `git push -u origin main` *(or `master` depending on branch)*
+**If it’s an existing repo cloned from GitHub, I just commit and push:**
+```bash
+git add .
+git commit -m "Your message"
+git push
+```
+This pushes my local code to the GitHub repository."
+
+---
+
+
 
 
