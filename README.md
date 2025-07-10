@@ -289,7 +289,11 @@ git push
 This pushes my local code to the GitHub repository."
 
 ---
+## How is git stash different from git commit?
+**git stash-** temporarily saves changes without committing them to history.
 
+**git commit-** permanently records changes in the repository history.
+---
 
 
 
