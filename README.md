@@ -13,6 +13,7 @@
 6. git push -u origin main
 
 
+>  git add .; git commit -m "upload file in repo"; git push -u origin main
 
 
 #push an existing repository from the command line:
