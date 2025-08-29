@@ -1,0 +1,72 @@
+## All Git command's List :
+=========================== 
+1. git init
+
+2. git status
+3. git add <file_name> or git add .
+
+3. git commit -m <Message_text> 
+
+4. git push origin main   #if case you're in main branch 
+   git push origin master #if case you're in Master branch
+
+
+5. git push origin master 
+
+
+
+#######################################
+6. git clone <URL>
+      ex: git clone https://github.com/Jagan-18/DAWS_76s_P.git
+
+
+git branch -a
+
+git checkout main
+git checkout -b master   or git branch -m master main
+
+***********************
+Step1: 
+     - git add . ; git commit -m "update text" ; git branch -m main master ; git push origin master
+
+Step2:  git add .; git commit -m "some textupdate" ; git push origin master
+
+******
+
+
+-------------------------------------------------------------------------------
+### Note: Above push repo issue we need to following this step's
+
+1. Check if the remote is configured: 
+ 
+- git remote -v
+
+You should now see output like this:
+-----------------------------------
+-  origin  https://github.com/your-username/your-repository.git (fetch)
+- origin  https://github.com/your-username/your-repository.git (push)
+
+2. If missing, add the remote: git remote add origin <repository-url>
+3. Push to the remote: git push origin master
+
+
+========
+
+ git add . ; git commit -m "roboshop shell script"; git push origin master
+
+
+git clone -b master https://github.com/Jagan-18/DAWS_76s_P.git
+
+
+
+
+
+=======================
+=====
+git diff          - compare changes of working directory with staging area.
+git diff --staged - Compare changes of staging area with Local Repository.
+git diff HRAD     - Compare changes of working directory with Local Repository.
+
+
+
+ 
