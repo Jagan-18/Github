@@ -295,6 +295,16 @@ This pushes my local code to the GitHub repository."
 
 **git commit-** permanently records changes in the repository history.
 ---
+# Can we edit the tag?
+1. Git tag are meant to be immutable markers for specific commits so **editing a tag directlly is not recommended.**
+2. If needed, we can deleted the old tag and create a new one pointing to a different commit:
+```bash
+git tag -d v1.0.0            # delete local tag
+git tag v1.0.0 <new-commit>  # Create tag on new commite
+
+git push origin --delete v1.0.0   # Delete the remote tag
+git push origin v1.0.0            # Push new tag.
+```
 
 
 
