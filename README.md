@@ -291,11 +291,13 @@ This pushes my local code to the GitHub repository."
 
 ---
 ## How is git stash different from git commit?
-**git stash-** temporarily saves changes without committing them to history.
 
-**git commit-** permanently records changes in the repository history.
+**1. git stash-** temporarily saves changes without committing them to history.
+
+**2. git commit-** permanently records changes in the repository history.
+
 ---
-# Can we edit the tag?
+# Canwe edit the tag?
 1. Git tag are meant to be immutable markers for specific commits so **editing a tag directlly is not recommended.**
 2. If needed, we can deleted the old tag and create a new one pointing to a different commit:
 ```bash
