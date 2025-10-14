@@ -259,6 +259,8 @@ Certainly! Here's a well-structured and formatted way to add the Git-related int
 
 - This strategy ensures organized development, clear code history, and efficient collaboration.
 
+<img width="356" height="467" alt="Image" src="https://github.com/user-attachments/assets/66e527c7-36c6-4b59-80f8-0a75699e6b3f" />
+
 ---
 # what is differnt B/w Reset Vs Revert
 ### Reset:
